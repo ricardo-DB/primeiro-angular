@@ -1,0 +1,9 @@
+<h2> Detalhes do Imóvel</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <p>{{ product.description }}</p>
+  <h4>{{ product.price}}</h4>
+  
+  <button (click)="addToCart(product)">Reservar</button>
+</div>
