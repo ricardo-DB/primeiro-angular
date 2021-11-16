@@ -2,8 +2,7 @@ export interface Product {
   id: number;
   name: string;
   price: string;
-  description: string;
- 
+  description: string; 
 }
 
 export const products = [
@@ -12,7 +11,6 @@ export const products = [
     name: 'Casa com dois dormitórios e com sacada',
     price: 'Diaria de R$ 100,00 contato (51)998523265',  
     description: 'Av. Caxias, 2525,Imbé, disponivel janeiro,fevereiro e março de 2022',
-    
   },
   {
     id: 2,
